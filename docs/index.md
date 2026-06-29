@@ -64,6 +64,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Parametry metody](05-metody/03-parametry-metody.md)
 - [Metoda zwracająca wartość](05-metody/04-metoda-zwracajaca-wartosc.md)
 - [void a return](05-metody/05-void-a-return.md)
+- [Metody i tablice](05-metody/06-metody-i-tablice.md)
 
 ## 06 - Zakres zmiennych
 

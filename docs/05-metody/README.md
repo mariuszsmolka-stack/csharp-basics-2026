@@ -10,5 +10,5 @@ Planowane lekcje:
 * [Metoda zwracająca wartość](04-metoda-zwracajaca-wartosc.md)
 * [void a return](05-void-a-return.md)
 * void a typ zwracany
-* Metody i tablice
+* [Metody i tablice](06-metody-i-tablice.md)
 * Ćwiczenia
