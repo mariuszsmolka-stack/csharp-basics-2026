@@ -8,17 +8,19 @@ Nauczysz się używać instrukcji `break` i `continue` do sterowania przebiegiem
 
 Zwykle pętla wykonuje się tak długo, jak pozwala jej warunek.
 
-Czasami chcemy przerwać pętlę wcześniej. Czasami chcemy pominąć tylko jeden obieg pętli, ale nie kończyć całej pętli.
+Czasami chcemy zakończyć pętlę wcześniej.
+
+Czasami chcemy pominąć tylko jeden obieg pętli.
 
 Do tego służą instrukcje `break` i `continue`.
 
 ## Instrukcja break
 
-Instrukcja `break` natychmiast kończy najbliższą pętlę. Program przechodzi wtedy do instrukcji znajdujących się po pętli.
+`break` natychmiast kończy najbliższą pętlę.
 
-`break` często stosuje się wtedy, gdy znaleziono szukaną wartość albo użytkownik wybrał zakończenie.
+Program przechodzi do instrukcji po pętli.
 
-## Przykład: przerwanie pętli for
+`break` często stosuje się, gdy znaleziono szukaną wartość albo dalsze sprawdzanie nie ma sensu.
 
 ```csharp
 using System;
@@ -44,17 +46,21 @@ class Program
 
 Program wypisze `1`, `2`, `3`, `4`.
 
-Gdy `i` ma wartość `5`, wykona się `break`. Pętla zostanie przerwana, a program przejdzie do instrukcji po pętli.
+Gdy `i` ma wartość `5`, wykona się `break` i pętla zostanie przerwana.
+
+Po pętli wykona się instrukcja:
+
+```csharp
+Console.WriteLine("Koniec pętli.");
+```
 
 ## Instrukcja continue
 
-Instrukcja `continue` pomija resztę bieżącego obiegu pętli.
+`continue` pomija resztę bieżącego obiegu pętli.
 
-Pętla nie kończy się całkowicie. Program przechodzi do następnego obiegu pętli.
+Pętla nie kończy się całkowicie. Program przechodzi do następnego obiegu.
 
-`continue` często stosuje się wtedy, gdy chcemy pominąć wybrane wartości.
-
-## Przykład: pomijanie jednej wartości
+`continue` stosuje się, gdy chcemy pominąć wybrane wartości.
 
 ```csharp
 using System;
@@ -78,29 +84,30 @@ class Program
 
 Program wypisze `1`, `2`, `4`, `5`.
 
-Gdy `i` ma wartość `3`, instrukcja `continue` pomija `Console.WriteLine(i)`. Pętla działa dalej.
+Dla `i == 3` wykonuje się `continue`, więc `Console.WriteLine(i)` zostaje wtedy pominięte.
+
+Pętla działa dalej.
 
 ## Różnica między break i continue
 
 | Instrukcja | Co robi | Czy pętla działa dalej? |
 | --- | --- | --- |
-| `break` | kończy pętlę | nie |
+| `break` | kończy najbliższą pętlę | nie |
 | `continue` | pomija bieżący obieg | tak |
 
-Krótko:
+`break` oznacza: zakończ pętlę.
 
-- `break` oznacza: zakończ pętlę,
-- `continue` oznacza: przejdź do następnego obiegu.
+`continue` oznacza: pomiń ten przypadek i przejdź dalej.
 
 ## Wyjaśnienie metodą Feynmana
 
-Wyobraź sobie, że sprawdzasz listę zadań.
+Wyobraź sobie, że sprawdzasz stos kartek z liczbami.
 
-`break`: idziesz po liście i szukasz pierwszego zadania oznaczonego jako pilne. Gdy je znajdziesz, przestajesz dalej sprawdzać listę. To jest `break` - koniec pętli.
+`break`: szukasz pierwszej kartki z liczbą `0`. Gdy ją znajdziesz, przestajesz przeglądać kolejne kartki. To jest `break` - kończysz całą pętlę.
 
-`continue`: idziesz po liście zadań. Jeśli zadanie jest już wykonane, pomijasz je i przechodzisz do następnego. To jest `continue` - pomijasz jeden przypadek, ale nadal pracujesz dalej.
+`continue`: przeglądasz wszystkie kartki. Jeśli kartka ma liczbę ujemną, odkładasz ją i przechodzisz do następnej. To jest `continue` - pomijasz jeden przypadek, ale pracujesz dalej.
 
-## Przykład: szukanie liczby
+## break przy szukaniu elementu w tablicy
 
 ```csharp
 using System;
@@ -109,15 +116,17 @@ class Program
 {
     static void Main()
     {
-        for (int i = 1; i <= 10; i++)
+        int[] liczby = { 4, 7, 2, 9, 5 };
+
+        for (int i = 0; i < liczby.Length; i++)
         {
-            if (i == 7)
+            if (liczby[i] == 9)
             {
-                Console.WriteLine("Znaleziono 7.");
+                Console.WriteLine($"Znaleziono liczbę 9 pod indeksem {i}.");
                 break;
             }
 
-            Console.WriteLine($"Sprawdzam: {i}");
+            Console.WriteLine($"Sprawdzam indeks {i}.");
         }
 
         Console.WriteLine("Po pętli.");
@@ -125,9 +134,13 @@ class Program
 }
 ```
 
-Pętla sprawdza kolejne liczby. Przy wartości `7` wypisuje komunikat i kończy pętlę. Liczby po `7` nie są już sprawdzane.
+Pętla sprawdza kolejne elementy tablicy.
 
-## Przykład: pomijanie liczb parzystych
+Gdy znajdzie wartość `9`, wypisuje komunikat i kończy pętlę.
+
+Elementy po znalezionej wartości nie są już sprawdzane. To ma sens, gdy interesuje nas pierwsze wystąpienie.
+
+## break i zmienna bool: czy znaleziono
 
 ```csharp
 using System;
@@ -136,24 +149,106 @@ class Program
 {
     static void Main()
     {
-        for (int i = 1; i <= 10; i++)
-        {
-            if (i % 2 == 0)
-            {
-                continue;
-            }
+        int[] liczby = { 4, 7, 2, 9, 5 };
+        int szukana = 9;
+        bool znaleziono = false;
 
-            Console.WriteLine(i);
+        for (int i = 0; i < liczby.Length; i++)
+        {
+            if (liczby[i] == szukana)
+            {
+                znaleziono = true;
+                break;
+            }
+        }
+
+        if (znaleziono)
+        {
+            Console.WriteLine("Znaleziono szukaną liczbę.");
+        }
+        else
+        {
+            Console.WriteLine("Nie znaleziono szukanej liczby.");
         }
     }
 }
 ```
 
-Jeśli liczba jest parzysta, wykonuje się `continue`.
+Zmienna `znaleziono` zapamiętuje wynik wyszukiwania.
 
-Instrukcja `Console.WriteLine(i)` zostaje pominięta dla liczb parzystych. Wypisane zostaną tylko liczby nieparzyste.
+Zaczyna od `false`.
 
-## Przykład: break w pętli while
+Jeśli znajdziemy szukaną wartość, ustawiamy `true` i przerywamy pętlę.
+
+Po pętli można wypisać odpowiedni komunikat.
+
+## continue przy pomijaniu elementów tablicy
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] liczby = { 4, -2, 0, 7, -5, 3 };
+
+        foreach (int liczba in liczby)
+        {
+            if (liczba < 0)
+            {
+                continue;
+            }
+
+            Console.WriteLine(liczba);
+        }
+    }
+}
+```
+
+Liczby ujemne są pomijane.
+
+`continue` sprawia, że `Console.WriteLine(liczba)` nie wykona się dla liczb ujemnych.
+
+Pętla przechodzi dalej do kolejnych elementów.
+
+Wypisane zostaną tylko `4`, `0`, `7`, `3`.
+
+## continue przy sumowaniu tylko wybranych wartości
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] liczby = { 4, -2, 0, 7, -5, 3 };
+
+        int suma = 0;
+
+        foreach (int liczba in liczby)
+        {
+            if (liczba < 0)
+            {
+                continue;
+            }
+
+            suma += liczba;
+        }
+
+        Console.WriteLine($"Suma liczb nieujemnych: {suma}");
+    }
+}
+```
+
+Liczby ujemne są pomijane.
+
+`suma += liczba` wykonuje się tylko dla liczb nieujemnych.
+
+Wynik obejmuje liczby dodatnie i zero.
+
+## break w pętli while
 
 ```csharp
 using System;
@@ -180,11 +275,38 @@ class Program
 }
 ```
 
-`while (true)` tworzy pętlę działającą bez ograniczenia. Instrukcja `break` kończy ją po wpisaniu `0`.
+`while (true)` tworzy pętlę działającą bez ograniczenia.
 
-To przykład dydaktyczny. W prawdziwych programach trzeba uważać, aby pętla miała jasny sposób zakończenia.
+`break` kończy ją po wpisaniu `0`.
 
-## Przykład: continue przy sumowaniu
+To przykład dydaktyczny. Taka pętla musi mieć jasny sposób zakończenia.
+
+## continue w pętli while: ostrożnie
+
+Przykład błędu:
+
+```csharp
+int i = 1;
+
+while (i <= 5)
+{
+    if (i == 3)
+    {
+        continue;
+    }
+
+    Console.WriteLine(i);
+    i++;
+}
+```
+
+Gdy `i` ma wartość `3`, wykonuje się `continue`.
+
+Instrukcja `i++` zostaje pominięta, więc `i` nadal ma wartość `3`.
+
+Powstaje pętla nieskończona.
+
+Poprawny wariant:
 
 ```csharp
 using System;
@@ -193,29 +315,24 @@ class Program
 {
     static void Main()
     {
-        int suma = 0;
+        int i = 1;
 
-        for (int i = 1; i <= 5; i++)
+        while (i <= 5)
         {
-            Console.WriteLine($"Podaj liczbę {i}:");
-            int liczba = int.Parse(Console.ReadLine());
-
-            if (liczba < 0)
+            if (i == 3)
             {
+                i++;
                 continue;
             }
 
-            suma += liczba;
+            Console.WriteLine(i);
+            i++;
         }
-
-        Console.WriteLine($"Suma liczb nieujemnych: {suma}");
     }
 }
 ```
 
-Liczby ujemne są pomijane.
-
-Instrukcja `continue` sprawia, że `suma += liczba` nie wykona się dla liczb ujemnych. Liczby `0` i dodatnie zostaną dodane do sumy.
+Przed `continue` zwiększamy licznik. Dzięki temu pętla może dojść do końca.
 
 ## Zgadnij, co wypisze program
 
@@ -250,101 +367,93 @@ for (int i = 1; i <= 5; i++)
 ```
 
 ```csharp
-for (int i = 1; i <= 6; i++)
-{
-    if (i % 2 == 0)
-    {
-        continue;
-    }
+int[] liczby = { 2, 4, 6, 8 };
 
-    Console.WriteLine(i);
-}
-```
-
-```csharp
-for (int i = 1; i <= 10; i++)
+foreach (int liczba in liczby)
 {
-    if (i > 4)
+    if (liczba > 5)
     {
         break;
     }
 
-    Console.WriteLine(i);
+    Console.WriteLine(liczba);
+}
+```
+
+```csharp
+int[] liczby = { 1, -2, 3, -4 };
+
+foreach (int liczba in liczby)
+{
+    if (liczba < 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine(liczba);
 }
 ```
 
 Odpowiedzi:
 
 - pierwszy przykład wypisze `1`, `2`, `4`, `5`,
-- drugi przykład wypisze `1`, `3`, `5`,
-- trzeci przykład wypisze `1`, `2`, `3`, `4`.
+- drugi przykład wypisze `2`, `4`,
+- trzeci przykład wypisze `1`, `3`.
 
 ## Typowe błędy
 
 ### Błąd 1: mylenie break i continue
 
-`break` kończy całą pętlę.
+`break` kończy całą najbliższą pętlę.
 
-`continue` kończy tylko bieżący obieg i przechodzi do następnego.
+`continue` kończy tylko bieżący obieg pętli.
 
-### Błąd 2: continue przed ważną instrukcją aktualizacji w while
+### Błąd 2: oczekiwanie, że break zakończy cały program
 
-Przykład niebezpieczny:
-
-```csharp
-int i = 1;
-
-while (i <= 5)
-{
-    if (i == 3)
-    {
-        continue;
-    }
-
-    Console.WriteLine(i);
-    i++;
-}
-```
-
-Gdy `i == 3`, instrukcja `continue` pomija `i++`. Zmienna `i` zostaje równa `3`, więc powstaje pętla nieskończona.
-
-Poprawny wariant:
-
-```csharp
-int i = 1;
-
-while (i <= 5)
-{
-    if (i == 3)
-    {
-        i++;
-        continue;
-    }
-
-    Console.WriteLine(i);
-    i++;
-}
-```
-
-Przed `continue` trzeba zadbać, aby zmienna sterująca pętlą zmieniła wartość.
-
-### Błąd 3: nadużywanie break i continue
-
-`break` i `continue` są przydatne, ale zbyt częste używanie może utrudnić czytanie programu.
-
-Na początku kursu stosujemy je tylko wtedy, gdy wyraźnie upraszczają kod.
-
-### Błąd 4: oczekiwanie, że break kończy cały program
-
-`break` kończy najbliższą pętlę albo `case` w instrukcji `switch`.
+`break` kończy pętlę albo `case` w `switch`.
 
 Nie kończy całego programu. Po pętli wykonują się dalsze instrukcje.
 
+### Błąd 3: continue przed zmianą licznika w while
+
+W pętli `while` trzeba pilnować, aby `continue` nie pominęło zmiany zmiennej sterującej.
+
+Inaczej może powstać pętla nieskończona.
+
+### Błąd 4: nadużywanie break i continue
+
+`break` i `continue` są przydatne, ale zbyt częste używanie może utrudnić czytanie programu.
+
+Stosujemy je wtedy, gdy naprawdę upraszczają kod.
+
+### Błąd 5: break przy zliczaniu wszystkich elementów
+
+Jeśli chcemy policzyć wszystkie pasujące elementy tablicy, zwykle nie używamy `break`.
+
+`break` kończy pętlę po pierwszym znalezieniu.
+
+Do zliczania wszystkich elementów pętla powinna przejść przez całą tablicę.
+
+## Kiedy używać break, a kiedy continue
+
+Użyj `break`, gdy:
+
+- szukasz pierwszego wystąpienia,
+- dalsze sprawdzanie nie ma sensu,
+- użytkownik wybrał zakończenie,
+- chcesz wyjść z pętli.
+
+Użyj `continue`, gdy:
+
+- chcesz pominąć jeden przypadek,
+- nie chcesz wykonywać dalszych instrukcji dla aktualnego elementu,
+- pętla ma działać dalej dla kolejnych elementów.
+
 ## Zapowiedź podsumowania działu
 
-Po poznaniu `while`, `do while`, `for`, licznika, akumulatora oraz `break` i `continue` można rozwiązywać wiele typowych zadań z pętlami.
+Po poznaniu pętli, tablic, `foreach`, licznika, akumulatora oraz instrukcji `break` i `continue` można rozwiązywać wiele typowych zadań programistycznych.
 
-Następnie warto zrobić podsumowanie działu o pętlach.
+Następny krok to podsumowanie działu o pętlach i tablicach.
 
 ## Zapamiętaj
 
@@ -352,18 +461,20 @@ Następnie warto zrobić podsumowanie działu o pętlach.
 - `continue` pomija resztę bieżącego obiegu.
 - Po `break` program przechodzi za pętlę.
 - Po `continue` pętla przechodzi do kolejnego obiegu.
+- `break` dobrze pasuje do szukania pierwszego pasującego elementu.
+- `continue` dobrze pasuje do pomijania wybranych elementów.
 - W pętli `while` trzeba uważać, aby `continue` nie pominęło zmiany licznika.
-- `break` i `continue` należy stosować świadomie.
+- Do zliczania wszystkich pasujących elementów zwykle nie używamy `break`.
 
 ## Ćwiczenia
 
 1. Wypisz liczby od `1` do `10`, ale przerwij pętlę po liczbie `5`.
 2. Wypisz liczby od `1` do `10` z pominięciem liczby `4`.
-3. Wypisz tylko liczby nieparzyste od `1` do `20`, używając `continue`.
-4. Wczytuj liczby w pętli `while` i zakończ po wpisaniu `0`.
-5. Wczytaj `5` liczb i zsumuj tylko liczby nieujemne, używając `continue`.
-6. Napisz pętlę, która przerwie działanie po znalezieniu liczby `7`.
-7. Przewidź wynik programu z `break`.
-8. Przewidź wynik programu z `continue`.
-9. Popraw pętlę `while`, w której `continue` powoduje pętlę nieskończoną.
-10. Wyjaśnij własnymi słowami różnicę między `break` i `continue`.
+3. Wypisz elementy tablicy do momentu napotkania liczby ujemnej.
+4. Sprawdź, czy w tablicy znajduje się liczba `0`. Po znalezieniu przerwij pętlę.
+5. Wypisz tylko liczby dodatnie z tablicy, używając `continue`.
+6. Oblicz sumę liczb nieujemnych z tablicy, używając `continue`.
+7. Popraw pętlę `while`, w której `continue` powoduje pętlę nieskończoną.
+8. Wyjaśnij różnicę między `break` i `continue`.
+9. Wskaż, kiedy `break` jest błędem przy zliczaniu elementów.
+10. Napisz własny przykład użycia `break` albo `continue`.
