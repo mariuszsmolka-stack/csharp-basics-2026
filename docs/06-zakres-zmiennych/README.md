@@ -6,7 +6,7 @@ Planowane lekcje:
 
 * [Blok kodu i zakres zmiennej](01-blok-kodu-i-zakres-zmiennej.md)
 * [Zmienne lokalne](02-zmienne-lokalne.md)
-* Parametry metod a zmienne lokalne
+* [Parametry metod a zmienne lokalne](03-parametry-a-zmienne-lokalne.md)
 * Zmienne w pętlach
 * Przesłanianie zmiennych
 * Najczęstsze błędy
