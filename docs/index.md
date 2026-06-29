@@ -43,8 +43,9 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [while](04-petle/01-while.md)
 - [do while](04-petle/02-do-while.md)
 - [for](04-petle/03-for.md)
-- [Licznik i akumulator](04-petle/04-licznik-akumulator.md)
-- [break i continue](04-petle/05-break-continue.md)
+- [Tablice jednowymiarowe - podstawy](04-petle/04-tablice-jednowymiarowe.md)
+- [Licznik i akumulator](04-petle/05-licznik-akumulator.md)
+- [break i continue](04-petle/06-break-continue.md)
 
 ## 05 - Tablice
 

@@ -7,9 +7,10 @@ W tym dziale poznasz powtarzanie instrukcji. Pętle pozwalają wykonać ten sam 
 - [while](01-while.md)
 - [do while](02-do-while.md)
 - [for](03-for.md)
-- [Licznik i akumulator](04-licznik-akumulator.md)
-- [break i continue](05-break-continue.md)
+- [Tablice jednowymiarowe - podstawy](04-tablice-jednowymiarowe.md)
+- [Licznik i akumulator](05-licznik-akumulator.md)
+- [break i continue](06-break-continue.md)
 
 ## Po tym dziale
 
-Uczeń powinien umieć powtarzać instrukcje, zliczać powtórzenia, sumować wartości i przerwać pętlę w odpowiednim momencie.
+Uczeń powinien umieć powtarzać instrukcje, korzystać z podstaw tablic, zliczać powtórzenia, sumować wartości i przerwać pętlę w odpowiednim momencie.
