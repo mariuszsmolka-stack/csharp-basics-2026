@@ -75,6 +75,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Parametry metod a zmienne lokalne](06-zakres-zmiennych/03-parametry-a-zmienne-lokalne.md)
 - [Zmienne w pętlach](06-zakres-zmiennych/04-zmienne-w-petlach.md)
 - [Przesłanianie zmiennych](06-zakres-zmiennych/05-przeslanianie-zmiennych.md)
+- [Najczęstsze błędy](06-zakres-zmiennych/06-najczestsze-bledy.md)
 
 ## 07 - Wstęp do obiektowości
 
