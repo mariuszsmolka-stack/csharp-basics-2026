@@ -62,6 +62,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Po co są metody](05-metody/01-po-co-sa-metody.md)
 - [Pierwsza metoda void](05-metody/02-pierwsza-metoda-void.md)
 - [Parametry metody](05-metody/03-parametry-metody.md)
+- [Metoda zwracająca wartość](05-metody/04-metoda-zwracajaca-wartosc.md)
 
 ## 06 - Zakres zmiennych
 
