@@ -7,6 +7,7 @@ W tym dziale poznasz pobieranie danych od użytkownika i przygotowanie wyników 
 - [Console.ReadLine](01-console-readline.md)
 - [Konwersja typów](02-konwersja-typow.md)
 - [Formatowanie wyników](03-formatowanie-wynikow.md)
+- [Podsumowanie działu](04-podsumowanie.md)
 
 ## Po tym dziale
 

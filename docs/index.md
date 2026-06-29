@@ -26,6 +26,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Console.ReadLine](02-wejscie-wyjscie/01-console-readline.md)
 - [Konwersja typów](02-wejscie-wyjscie/02-konwersja-typow.md)
 - [Formatowanie wyników](02-wejscie-wyjscie/03-formatowanie-wynikow.md)
+- [Podsumowanie działu](02-wejscie-wyjscie/04-podsumowanie.md)
 
 ## 03 - Warunki
 
