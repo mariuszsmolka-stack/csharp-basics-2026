@@ -1,3 +1,8 @@
+﻿---
+layout: default
+title: C# - podstawy programowania 2026/2027
+---
+
 # C# - podstawy programowania 2026/2027
 
 Autor: Mariusz Smółka
@@ -63,3 +68,5 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 ## 06 - Projekty
 
 - [Zapowiedź projektów](06-projekty/README.md)
+
+
