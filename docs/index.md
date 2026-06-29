@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: C# - podstawy programowania 2026/2027
+title: TEST JEKYLL DZIALA
 ---
 
 # C# - podstawy programowania 2026/2027
@@ -68,5 +68,6 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 ## 06 - Projekty
 
 - [Zapowiedź projektów](06-projekty/README.md)
+
 
 
