@@ -16,6 +16,10 @@ Statusy:
 | 02-wejście-wyjście | ROBOCZE |
 | 03-warunki | ROBOCZE |
 | 04-pętle | ROBOCZE |
-| 05-projekty | ROBOCZE |
+| 05-metody | ROBOCZE |
+| 06-zakres-zmiennych | ROBOCZE |
+| 07-obiekty | ROBOCZE |
+| 08-projekty | ROBOCZE |
+
 
 

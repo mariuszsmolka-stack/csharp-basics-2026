@@ -56,8 +56,20 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Pętla foreach](04-petle/09-foreach.md)
 - [break i continue](04-petle/10-break-continue.md)
 
+## 05 - Metody
+
+- [Wprowadzenie](05-metody/README.md)
+
+## 06 - Zakres zmiennych
+
+- [Wprowadzenie](06-zakres-zmiennych/README.md)
+
+## 07 - Wstęp do obiektowości
+
+- [Wprowadzenie](07-obiekty/README.md)
 
 
-## 05 - Projekty
+## 08 - Projekty
 
-- [Wprowadzenie](05-projekty/README.md)
+- [Wprowadzenie](08-projekty/README.md)
+
