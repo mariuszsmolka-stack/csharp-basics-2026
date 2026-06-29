@@ -1,8 +1,8 @@
-# Licznik i akumulator
+# Zliczanie elementów tablicy spełniających warunek
 
 ## Cel lekcji
 
-Nauczysz się rozróżniać licznik i akumulator oraz używać ich w prostych zadaniach z pętlami.
+Nauczysz się rozróżniać licznik i akumulator oraz używać ich przy zliczaniu elementów tablicy spełniających warunek.
 
 ## Krótkie wprowadzenie
 
@@ -14,7 +14,7 @@ Do takich zadań służą licznik i akumulator.
 
 ## Licznik
 
-Licznik to zmienna, która zwykle zwiększa się o `1`, aby policzyć liczbę wystąpień, powtórzeń albo elementów spełniających warunek.
+Licznik to zmienna, która zwykle zwiększa się o `1`, aby policzyć liczbę wystąpień, powtórzeń albo elementów tablicy spełniających warunek.
 
 Przykład prostego licznika:
 
@@ -243,7 +243,7 @@ Suma zwykle zaczyna od `0`.
 
 Dla średniej najpierw liczymy sumę, a potem dzielimy ją przez liczbę elementów.
 
-Jeśli liczymy tylko elementy spełniające warunek, zwiększamy licznik wewnątrz instrukcji `if`.
+Jeśli zliczamy elementy tablicy spełniające warunek, zwiększamy licznik wewnątrz instrukcji `if`.
 
 ```csharp
 int liczbaParzystych = 0;

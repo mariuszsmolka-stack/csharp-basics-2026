@@ -11,7 +11,7 @@ W tym dziale poznasz powtarzanie instrukcji. Pętle pozwalają wykonać ten sam 
 - [Pętla for po tablicy](05-for-po-tablicy.md)
 - [Suma i średnia elementów tablicy](06-suma-srednia-tablicy.md)
 - [Minimum i maksimum elementów tablicy](07-minimum-maksimum-tablicy.md)
-- [Licznik i akumulator](08-licznik-akumulator.md)
+- [Zliczanie elementów tablicy spełniających warunek](08-licznik-akumulator.md)
 - [break i continue](09-break-continue.md)
 
 ## Po tym dziale

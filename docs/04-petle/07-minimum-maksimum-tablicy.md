@@ -354,7 +354,7 @@ Odpowiedzi:
 
 Minimum i maksimum to podstawowe operacje na tablicach.
 
-W kolejnej lekcji można wykorzystać warunki do zliczania elementów spełniających określone kryteria, na przykład liczb dodatnich, parzystych albo większych od podanej wartości.
+W kolejnej lekcji można wykorzystać warunki do zliczania elementów tablicy spełniających określone kryteria, na przykład liczb dodatnich, parzystych albo większych od podanej wartości.
 
 ## Zapamiętaj
 
