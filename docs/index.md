@@ -86,10 +86,10 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[Inicjalizacja: int i = 0]
-    B --> C{Czy i < 5?}
-    C -- tak --> D[Wykonaj ciało pętli<br/>Console.WriteLine(i)]
-    D --> E[Zwiększ licznik: i++]
+    A([Start]) --> B["Inicjalizacja: int i = 0"]
+    B --> C{"Czy i < 5?"}
+    C -- tak --> D["Wykonaj ciało pętli: Console.WriteLine(i);"]
+    D --> E["Zwiększ licznik: i++"]
     E --> C
     C -- nie --> F([Koniec])
 ```
