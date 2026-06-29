@@ -6,7 +6,7 @@ Planowane lekcje:
 
 * [Po co są metody](01-po-co-sa-metody.md)
 * [Pierwsza metoda void](02-pierwsza-metoda-void.md)
-* Parametry metody
+* [Parametry metody](03-parametry-metody.md)
 * Metoda zwracająca wartość
 * return
 * void a typ zwracany
