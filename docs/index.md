@@ -35,6 +35,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [if else](03-warunki/02-if-else.md)
 - [else if](03-warunki/03-else-if.md)
 - [switch](03-warunki/04-switch.md)
+- [Podsumowanie działu](03-warunki/05-podsumowanie.md)
 
 ## 04 - Pętle
 

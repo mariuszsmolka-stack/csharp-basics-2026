@@ -8,6 +8,7 @@ W tym dziale poznasz instrukcje warunkowe. Dzięki nim program może wykonać r�
 - [if else](02-if-else.md)
 - [else if](03-else-if.md)
 - [switch](04-switch.md)
+- [Podsumowanie działu](05-podsumowanie.md)
 
 ## Po tym dziale
 
