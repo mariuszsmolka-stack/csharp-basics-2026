@@ -85,6 +85,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [List<int>](07-tablice-listy-referencje/03-list-int.md)
 - [List<string>](07-tablice-listy-referencje/04-list-string.md)
 - [List a tablica](07-tablice-listy-referencje/05-list-a-tablica.md)
+- [Przekazywanie parametrów przez wartość](07-tablice-listy-referencje/06-przekazywanie-parametrow-przez-wartosc.md)
 
 ## 08 - Obiekty
 
