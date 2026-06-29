@@ -8,7 +8,7 @@ Planowane lekcje:
 * [Pierwsza metoda void](02-pierwsza-metoda-void.md)
 * [Parametry metody](03-parametry-metody.md)
 * [Metoda zwracająca wartość](04-metoda-zwracajaca-wartosc.md)
-* return
+* [void a return](05-void-a-return.md)
 * void a typ zwracany
 * Metody i tablice
 * Ćwiczenia
