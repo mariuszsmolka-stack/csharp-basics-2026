@@ -2,14 +2,57 @@
 
 Autor: Mariusz Smółka
 
-## Lekcje
+To jest strona główna kursu C# dla początkujących. Materiały dotyczą głównie programowania konsolowego i podstaw potrzebnych na początku nauki INF.04.
 
-1. Visual Studio, Git i GitHub
-2. Typy danych w C#
-3. Wejście i wyjście danych
-4. Tablice jednowymiarowe
+## Informacje
 
-## Projekty
+- [Licencja](licencja.md)
+- [Organizacja kursu](00-organizacja/README.md)
+- [Status kursu](00-organizacja/status-kursu.md)
 
-- ExamTaskConsole01
-- ExamTaskConsole02
+## 01 - Podstawy
+
+- [Wprowadzenie](01-podstawy/README.md)
+- [Pierwszy program](01-podstawy/01-pierwszy-program.md)
+- [Console.WriteLine](01-podstawy/02-console-writeline.md)
+- [Zmienne](01-podstawy/03-zmienne.md)
+- [Typy danych](01-podstawy/04-typy-danych.md)
+- [Komentarze](01-podstawy/05-komentarze.md)
+- [Operatory](01-podstawy/06-operatory.md)
+
+## 02 - Wejście i wyjście
+
+- [Wprowadzenie](02-wejscie-wyjscie/README.md)
+- [Console.ReadLine](02-wejscie-wyjscie/01-console-readline.md)
+- [Konwersja typów](02-wejscie-wyjscie/02-konwersja-typow.md)
+- [Formatowanie wyników](02-wejscie-wyjscie/03-formatowanie-wynikow.md)
+
+## 03 - Warunki
+
+- [Wprowadzenie](03-warunki/README.md)
+- [if](03-warunki/01-if.md)
+- [if else](03-warunki/02-if-else.md)
+- [else if](03-warunki/03-else-if.md)
+- [switch](03-warunki/04-switch.md)
+
+## 04 - Pętle
+
+- [Wprowadzenie](04-petle/README.md)
+- [while](04-petle/01-while.md)
+- [do while](04-petle/02-do-while.md)
+- [for](04-petle/03-for.md)
+- [Licznik i akumulator](04-petle/04-licznik-akumulator.md)
+- [break i continue](04-petle/05-break-continue.md)
+
+## 05 - Tablice
+
+- [Wprowadzenie](05-tablice/README.md)
+- [Tablice jednowymiarowe](05-tablice/01-tablice.md)
+- [Indeksy](05-tablice/02-indeksy.md)
+- [Pętla for po tablicy](05-tablice/03-for-po-tablicy.md)
+- [foreach](05-tablice/04-foreach.md)
+- [Suma, minimum i maksimum](05-tablice/05-suma-minimum-maksimum.md)
+
+## 06 - Projekty
+
+- [Zapowiedź projektów](06-projekty/README.md)
