@@ -1,4 +1,4 @@
-# 06 - Projekty
+﻿# 06 - Projekty
 
 Ten dział będzie zawierał proste projekty konsolowe utrwalające materiał z kursu.
 
@@ -11,3 +11,4 @@ Na razie jest to tylko zapowiedź. Rozbudowane opisy projektów i większe zadan
 - zgadywanie liczby,
 - średnia ocen,
 - menu konsolowe.
+
