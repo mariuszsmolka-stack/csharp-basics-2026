@@ -11,4 +11,4 @@ Planowane lekcje:
 * [void a return](05-void-a-return.md)
 * void a typ zwracany
 * [Metody i tablice](06-metody-i-tablice.md)
-* Ćwiczenia
+* [Ćwiczenia](07-cwiczenia.md)
