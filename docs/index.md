@@ -80,6 +80,6 @@ flowchart TD
     A[Start] --> B{Warunek}
     B -- true --> C[Wykonaj instrukcję]
     B -- false --> D[Pomiń]
-    C --> E[Koniec]
+    C --> E[KoniecS]
     D --> E
 ```
