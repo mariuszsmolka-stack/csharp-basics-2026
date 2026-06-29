@@ -71,6 +71,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 
 - [Wprowadzenie](06-zakres-zmiennych/README.md)
 - [Blok kodu i zakres zmiennej](06-zakres-zmiennych/01-blok-kodu-i-zakres-zmiennej.md)
+- [Zmienne lokalne](06-zakres-zmiennych/02-zmienne-lokalne.md)
 
 ## 07 - Wstęp do obiektowości
 
