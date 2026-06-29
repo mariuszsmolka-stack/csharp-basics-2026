@@ -1,4 +1,4 @@
-# Status kursu
+﻿# Status kursu
 
 Statusy:
 
@@ -16,5 +16,5 @@ Statusy:
 | 02-wejście-wyjście | ROBOCZE |
 | 03-warunki | ROBOCZE |
 | 04-pętle | ROBOCZE |
-| 05-tablice | ROBOCZE |
 | 06-projekty | ROBOCZE |
+
