@@ -1,3 +1,8 @@
+﻿---
+layout: default
+title: Licencja
+---
+
 # Licencja
 
 Materiały w tym repozytorium są udostępniane na licencji Creative Commons:
@@ -9,3 +14,4 @@ Oznacza to, że możesz korzystać z materiałów, udostępniać je i modyfikowa
 - podasz autora,
 - nie użyjesz materiałów komercyjnie,
 - udostępnisz zmienione materiały na tej samej licencji.
+
