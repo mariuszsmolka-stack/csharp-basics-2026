@@ -59,6 +59,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 ## 05 - Metody
 
 - [Wprowadzenie](05-metody/README.md)
+- [Po co są metody](05-metody/01-po-co-sa-metody.md)
 
 ## 06 - Zakres zmiennych
 
