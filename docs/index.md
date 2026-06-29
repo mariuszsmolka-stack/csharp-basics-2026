@@ -77,12 +77,15 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Przesłanianie zmiennych](06-zakres-zmiennych/05-przeslanianie-zmiennych.md)
 - [Najczęstsze błędy](06-zakres-zmiennych/06-najczestsze-bledy.md)
 
-## 07 - Wstęp do obiektowości
+## 07 - Tablice, listy i przekazywanie danych
 
-- [Wprowadzenie](07-obiekty/README.md)
+- [Tablice, listy i przekazywanie danych](07-tablice-listy-referencje/README.md)
 
+## 08 - Obiekty
 
-## 08 - Projekty
+- [Wprowadzenie](08-obiekty/README.md)
 
-- [Wprowadzenie](08-projekty/README.md)
+## 09 - Projekty
+
+- [Wprowadzenie](09-projekty/README.md)
 

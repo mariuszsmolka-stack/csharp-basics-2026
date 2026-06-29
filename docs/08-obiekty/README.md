@@ -1,4 +1,4 @@
-# 07 - Wstęp do obiektowości
+# 08 - Wstęp do obiektowości
 
 W tym dziale uczeń poznaje podstawowe pojęcia programowania obiektowego w C#: klasę, obiekt, pola, metody obiektu i konstruktor.
 
