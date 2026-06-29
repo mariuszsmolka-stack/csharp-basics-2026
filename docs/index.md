@@ -93,3 +93,26 @@ flowchart TD
     E --> C
     C -- nie --> F([Koniec])
 ```
+
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart TB
+    A([Start])
+    B["1. Inicjalizacja<br/>int i = 0"]
+    C{"2. Warunek<br/>i < 5"}
+    D["3. Ciało pętli<br/>Console.WriteLine(i);"]
+    E["4. Zmiana licznika<br/>i++"]
+    F([Koniec])
+
+    A --> B
+    B --> C
+    C -- tak --> D
+    D --> E
+    E --> C
+    C -- nie --> F
+```
+
