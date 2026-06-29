@@ -48,7 +48,8 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 - [Suma i średnia elementów tablicy](04-petle/06-suma-srednia-tablicy.md)
 - [Minimum i maksimum elementów tablicy](04-petle/07-minimum-maksimum-tablicy.md)
 - [Zliczanie elementów tablicy spełniających warunek](04-petle/08-licznik-akumulator.md)
-- [break i continue](04-petle/09-break-continue.md)
+- [Pętla foreach](04-petle/09-foreach.md)
+- [break i continue](04-petle/10-break-continue.md)
 
 ## 05 - Tablice
 

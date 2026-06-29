@@ -12,7 +12,8 @@ W tym dziale poznasz powtarzanie instrukcji. Pętle pozwalają wykonać ten sam 
 - [Suma i średnia elementów tablicy](06-suma-srednia-tablicy.md)
 - [Minimum i maksimum elementów tablicy](07-minimum-maksimum-tablicy.md)
 - [Zliczanie elementów tablicy spełniających warunek](08-licznik-akumulator.md)
-- [break i continue](09-break-continue.md)
+- [Pętla foreach](09-foreach.md)
+- [break i continue](10-break-continue.md)
 
 ## Po tym dziale
 
