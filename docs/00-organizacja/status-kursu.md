@@ -16,5 +16,6 @@ Statusy:
 | 02-wejście-wyjście | ROBOCZE |
 | 03-warunki | ROBOCZE |
 | 04-pętle | ROBOCZE |
-| 06-projekty | ROBOCZE |
+| 05-projekty | ROBOCZE |
+
 
