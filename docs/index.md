@@ -92,6 +92,9 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 ## 08 - Obiekty
 
 - [Wprowadzenie](08-obiekty/README.md)
+- [Po co są obiekty](08-obiekty/01-po-co-sa-obiekty.md)
+- [Klasa i obiekt](08-obiekty/02-klasa-i-obiekt.md)
+- [Pola obiektu](08-obiekty/03-pola-obiektu.md)
 
 ## 09 - Projekty
 

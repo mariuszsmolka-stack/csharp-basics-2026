@@ -4,9 +4,9 @@ W tym dziale uczeń poznaje podstawowe pojęcia programowania obiektowego w C#: 
 
 Planowane lekcje:
 
-* Po co są klasy
-* Klasa i obiekt
-* Pola obiektu
+* [Po co są obiekty](01-po-co-sa-obiekty.md)
+* [Klasa i obiekt](02-klasa-i-obiekt.md)
+* [Pola obiektu](03-pola-obiektu.md)
 * Metody obiektu
 * Konstruktor
 * Kilka obiektów
