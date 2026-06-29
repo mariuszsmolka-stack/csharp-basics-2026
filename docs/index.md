@@ -71,3 +71,14 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 
 
 
+
+## Test Mermaid
+
+```mermaid
+flowchart TD
+    A[Start] --> B{Warunek}
+    B -- true --> C[Wykonaj instrukcję]
+    B -- false --> D[Pomiń]
+    C --> E[Koniec]
+    D --> E
+
