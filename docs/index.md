@@ -81,6 +81,7 @@ To jest strona główna kursu C# dla początkujących. Materiały dotyczą głó
 
 - [Tablice, listy i przekazywanie danych](07-tablice-listy-referencje/README.md)
 - [Tablice dwuwymiarowe](07-tablice-listy-referencje/01-tablice-dwuwymiarowe.md)
+- [Tablice wielowymiarowe](07-tablice-listy-referencje/02-tablice-wielowymiarowe.md)
 
 ## 08 - Obiekty
 
