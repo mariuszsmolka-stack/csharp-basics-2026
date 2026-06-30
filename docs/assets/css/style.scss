@@ -41,3 +41,154 @@
   padding-left: 1rem;
   color: #555;
 }
+
+.course-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 2rem;
+  max-width: 1180px;
+}
+
+.course-sidebar {
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1px solid #dfe2e5;
+  border-radius: 8px;
+  background: #f8f9fa;
+  font-size: 0.95rem;
+}
+
+.course-sidebar a {
+  color: #2879a8;
+  text-decoration: none;
+}
+
+.course-sidebar a:hover {
+  text-decoration: underline;
+}
+
+.course-sidebar__home {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.course-sidebar__section {
+  margin-top: 1rem;
+}
+
+.course-sidebar__title {
+  margin: 0 0 0.35rem;
+  padding: 0;
+  border: 0;
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+
+.course-sidebar__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.course-sidebar__link {
+  display: block;
+  padding: 0.28rem 0.6rem;
+  border-radius: 6px;
+  line-height: 1.35;
+}
+
+.course-sidebar__home.is-active,
+.course-sidebar__link.is-active {
+  background: #e7f3ee;
+  color: #116149;
+  font-weight: 600;
+}
+
+.course-breadcrumbs {
+  margin-bottom: 1.25rem;
+  color: #586069;
+  font-size: 0.95rem;
+}
+
+.course-breadcrumbs a {
+  color: #2879a8;
+}
+
+.course-breadcrumbs span {
+  margin-left: 0.35rem;
+}
+
+.lesson-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eaecef;
+}
+
+.lesson-nav__button {
+  display: block;
+  min-height: 4.2rem;
+  padding: 0.75rem;
+  border: 1px solid #dfe2e5;
+  border-radius: 8px;
+  background: #fff;
+  color: #2879a8;
+  text-decoration: none;
+}
+
+.lesson-nav__button:hover {
+  border-color: #159957;
+  text-decoration: none;
+}
+
+.lesson-nav__label {
+  display: block;
+  color: #586069;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.lesson-nav__title {
+  display: block;
+  margin-top: 0.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.lesson-nav__slot--toc {
+  text-align: center;
+}
+
+.lesson-nav__slot--next {
+  text-align: right;
+}
+
+@media (max-width: 860px) {
+  .course-layout {
+    display: block;
+  }
+
+  .course-sidebar {
+    position: static;
+    max-height: none;
+    margin-bottom: 1.5rem;
+  }
+
+  .lesson-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-nav__slot--toc,
+  .lesson-nav__slot--next {
+    text-align: left;
+  }
+}
