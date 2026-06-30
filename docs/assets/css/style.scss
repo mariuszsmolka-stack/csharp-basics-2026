@@ -44,9 +44,12 @@
 
 .course-layout {
   display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-  gap: 2rem;
-  max-width: 1180px;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 2.25rem;
+  width: min(1180px, calc(100% - 2rem));
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .course-sidebar {
@@ -60,6 +63,13 @@
   border-radius: 8px;
   background: #f8f9fa;
   font-size: 0.95rem;
+}
+
+.course-content {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  padding-top: 0;
 }
 
 .course-sidebar a {
@@ -175,6 +185,8 @@
 @media (max-width: 860px) {
   .course-layout {
     display: block;
+    width: min(100% - 1rem, 980px);
+    padding: 1rem 0;
   }
 
   .course-sidebar {

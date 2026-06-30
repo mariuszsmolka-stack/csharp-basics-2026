@@ -1,5 +1,4 @@
-<aside class="course-sidebar" aria-label="Nawigacja kursu">
-  <a class="course-sidebar__home{% if page.path == 'index.md' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Spis treści</a>
+<a class="course-sidebar__home{% if page.path == 'index.md' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Spis treści</a>
 
   <nav class="course-sidebar__nav">
     {% for section in site.data.navigation.sections %}
@@ -30,4 +29,3 @@
       </section>
     {% endfor %}
   </nav>
-</aside>
