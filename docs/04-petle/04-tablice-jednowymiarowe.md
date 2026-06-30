@@ -168,11 +168,11 @@ Dla tablicy `{ 10, 15, 20 }` wartość `Length` wynosi `3`.
 
 Ostatni indeks to `punkty.Length - 1`. W kolejnej lekcji `Length` będzie bardzo ważne przy pętli `for`.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
-Wyobraź sobie, że masz 5 ponumerowanych pudełek na oceny.
+Wyobraź sobie komodę z pięcioma szufladami na oceny.
 
-Nie chcesz mieć pięciu osobnych kartek:
+Nie chcesz mieć pięciu osobnych zmiennych:
 
 - `ocena1`,
 - `ocena2`,
@@ -180,17 +180,19 @@ Nie chcesz mieć pięciu osobnych kartek:
 - `ocena4`,
 - `ocena5`.
 
-Wolisz mieć jeden rząd pudełek o nazwie `oceny`.
+Wolisz mieć jedną komodę o nazwie `oceny`.
 
-Każde pudełko ma numer:
+Każda szuflada ma swój numer, czyli indeks:
 
-- `oceny[0]` - pierwsze pudełko,
-- `oceny[1]` - drugie pudełko,
-- `oceny[2]` - trzecie pudełko.
+- `oceny[0]` - pierwsza szuflada,
+- `oceny[1]` - druga szuflada,
+- `oceny[2]` - trzecia szuflada.
 
-Tablica to właśnie taki rząd pudełek. Nazwa tablicy mówi, o który rząd chodzi. Indeks mówi, do którego pudełka zaglądasz.
+Tablica to uporządkowany zestaw miejsc na dane.
 
-W programowaniu pierwsze pudełko ma numer `0`, a nie `1`.
+Nazwa tablicy mówi, o którą komodę chodzi. Indeks mówi, do której szuflady zaglądasz.
+
+Ważne: w C# numerowanie zaczyna się od `0`, więc pierwsza szuflada ma indeks `0`, a nie `1`.
 
 ## Typowe błędy
 
