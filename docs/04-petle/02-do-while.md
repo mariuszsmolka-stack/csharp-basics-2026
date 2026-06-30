@@ -137,7 +137,7 @@ Napis `"while"` nie zostanie wypisany, ponieważ warunek `x < 5` jest fałszywy 
 
 Napis `"do while"` zostanie wypisany jeden raz, ponieważ pętla `do while` najpierw wykonuje blok, a dopiero potem sprawdza warunek.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie nauczyciela, który mówi:
 

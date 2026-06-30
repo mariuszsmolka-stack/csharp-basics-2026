@@ -197,7 +197,7 @@ Dla tablicy `double[]` zmienna `suma` też powinna być typu `double`.
 
 Nie trzeba tu rzutować sumy na `double`, bo `suma` już jest typu `double`.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że masz kilka kartek z punktami uczniów: `4`, `7`, `2`, `9`.
 

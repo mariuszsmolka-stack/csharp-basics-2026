@@ -165,7 +165,7 @@ class Program
 
 Instrukcja `i += 2` zwiększa licznik o `2`. Dlatego program wypisze liczby `2`, `4`, `6`, `8`, `10`.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że nauczyciel mówi:
 

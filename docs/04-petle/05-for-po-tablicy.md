@@ -243,7 +243,7 @@ class Program
 
 Nie zmienia to indeksowania tablicy. Pierwszy element nadal ma indeks `0`.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie rząd szuflad z ocenami.
 

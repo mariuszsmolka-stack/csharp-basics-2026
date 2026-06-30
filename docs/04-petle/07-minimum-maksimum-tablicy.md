@@ -196,7 +196,7 @@ Druga pętla szuka minimum i maksimum.
 
 Zaczynamy porównywanie od indeksu `1`, bo indeks `0` jest wartością startową.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że masz stos kartek z wynikami uczniów.
 

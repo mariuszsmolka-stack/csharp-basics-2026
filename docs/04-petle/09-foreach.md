@@ -274,7 +274,7 @@ Do zmiany elementów tablicy używamy indeksu, dlatego modyfikacja jest wykonana
 
 Potem wartości można wypisać pętlą `foreach`.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że masz pudełko z kartkami.
 

@@ -217,7 +217,7 @@ W tym programie:
 - `sumaDodatnich` jest akumulatorem,
 - obie zmienne są aktualizowane tylko dla liczb dodatnich.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że sprawdzasz kartkówki.
 

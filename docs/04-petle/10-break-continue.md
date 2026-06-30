@@ -125,7 +125,7 @@ flowchart TD
 
 Diagram pokazuje różnicę między zakończeniem całej pętli a przejściem do następnego obiegu.
 
-## Wyjaśnienie metodą Feynmana
+## Wyjaśnienie
 
 Wyobraź sobie, że sprawdzasz stos kartek z liczbami.
 
