@@ -64,6 +64,23 @@
   font-size: 0.95rem;
 }
 
+.mobile-toc {
+  display: none;
+}
+
+.mobile-toc summary {
+  cursor: pointer;
+  padding: 0.65rem 0.75rem;
+  border-radius: 6px;
+  background: #e7f3ee;
+  color: #116149;
+  font-weight: 600;
+}
+
+.mobile-toc[open] summary {
+  margin-bottom: 0.75rem;
+}
+
 .course-main {
   min-width: 0;
 }
@@ -193,6 +210,14 @@
     position: static;
     max-height: none;
     margin-bottom: 1.5rem;
+  }
+
+  .desktop-toc {
+    display: none;
+  }
+
+  .mobile-toc {
+    display: block;
   }
 
   .lesson-nav {

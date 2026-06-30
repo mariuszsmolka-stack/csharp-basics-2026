@@ -45,6 +45,10 @@
         min-width: 0;
       }
 
+      .mobile-toc {
+        display: none;
+      }
+
       @media (max-width: 900px) {
         .course-shell {
           grid-template-columns: 1fr;
@@ -53,6 +57,14 @@
         .course-sidebar {
           position: static;
           max-height: none;
+        }
+
+        .desktop-toc {
+          display: none;
+        }
+
+        .mobile-toc {
+          display: block;
         }
       }
     </style>

@@ -1,6 +1,5 @@
-<a class="course-sidebar__home{% if page.path == 'index.md' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Spis treści</a>
-
-  <nav class="course-sidebar__nav">
+{% capture course_toc %}
+  <nav class="course-sidebar__nav" aria-label="Spis treści kursu">
     {% for section in site.data.navigation.sections %}
       {% assign section_href = section.url | replace: 'index.md', '' | replace: 'README.md', '' | replace: '.md', '.html' | relative_url %}
       {% assign section_active = false %}
@@ -29,3 +28,14 @@
       </section>
     {% endfor %}
   </nav>
+{% endcapture %}
+
+<div class="desktop-toc">
+  <a class="course-sidebar__home{% if page.path == 'index.md' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Spis treści</a>
+  {{ course_toc }}
+</div>
+
+<details class="mobile-toc">
+  <summary>Spis treści</summary>
+  {{ course_toc }}
+</details>
