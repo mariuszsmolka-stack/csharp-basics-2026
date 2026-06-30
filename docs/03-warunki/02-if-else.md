@@ -70,6 +70,30 @@ Jeśli warunek `wiek >= 18` daje `true`, wykona się pierwszy blok.
 
 W przeciwnym razie wykona się blok `else`.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart TD
+    A([Start])
+    B{"Czy warunek<br/>jest true?"}
+    C["Wykonaj blok if"]
+    D["Wykonaj blok else"]
+    E["Dalszy kod"]
+    F([Koniec])
+
+    A --> B
+    B -- "tak" --> C
+    B -- "nie" --> D
+    C --> E
+    D --> E
+    E --> F
+```
+
+Diagram pokazuje, że w instrukcji `if else` wykonuje się dokładnie jedna z dwóch ścieżek.
+
 ## 4. Liczba dodatnia albo niedodatnia
 
 ```csharp

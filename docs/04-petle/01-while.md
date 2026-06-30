@@ -66,6 +66,30 @@ W tym przykładzie:
 - `licznik++` zwiększa wartość licznika o `1`,
 - bez zwiększania licznika pętla mogłaby działać bez końca.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart TD
+    A([Start])
+    B["Ustaw licznik"]
+    C{"licznik <= 5?"}
+    D["Wypisz licznik"]
+    E["Zwiększ licznik"]
+    F([Koniec])
+
+    A --> B
+    B --> C
+    C -- "tak" --> D
+    D --> E
+    E --> C
+    C -- "nie" --> F
+```
+
+Diagram pokazuje, że w pętli `while` warunek jest sprawdzany przed każdym obiegiem.
+
 ## 4. Warunek od początku fałszywy
 
 Pętla `while` sprawdza warunek przed pierwszym wykonaniem bloku.

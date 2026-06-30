@@ -99,6 +99,32 @@ Pętla działa dalej.
 
 `continue` oznacza: pomiń ten przypadek i przejdź dalej.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart TD
+    A([Start])
+    B["Obieg pętli"]
+    C["Instrukcja sterująca"]
+    D["break:<br/>wyjście z pętli"]
+    E["continue:<br/>następny obieg"]
+    F["Kod po pętli"]
+    G([Koniec])
+
+    A --> B
+    B --> C
+    C -- "break" --> D
+    D --> F
+    F --> G
+    C -- "continue" --> E
+    E --> B
+```
+
+Diagram pokazuje różnicę między zakończeniem całej pętli a przejściem do następnego obiegu.
+
 ## Wyjaśnienie metodą Feynmana
 
 Wyobraź sobie, że sprawdzasz stos kartek z liczbami.

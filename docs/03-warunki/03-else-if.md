@@ -118,6 +118,38 @@ Najpierw sprawdzamy najwyższy próg. Gdy `punkty` wynoszą `92`, wykona się ty
 
 Program nie sprawdza dalej pozostałych `else if` po znalezieniu pasującego warunku.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart TD
+    A([Start])
+    B{"punkty >= 90?"}
+    C["Bardzo dobry"]
+    D{"punkty >= 75?"}
+    E["Dobry"]
+    F{"punkty >= 50?"}
+    G["Wystarczający"]
+    H["Niewystarczający"]
+    I([Koniec])
+
+    A --> B
+    B -- "tak" --> C
+    B -- "nie" --> D
+    D -- "tak" --> E
+    D -- "nie" --> F
+    F -- "tak" --> G
+    F -- "nie" --> H
+    C --> I
+    E --> I
+    G --> I
+    H --> I
+```
+
+Diagram pokazuje, że `else if` sprawdza warunki po kolei i zatrzymuje się na pierwszym pasującym przypadku.
+
 ## 5. Temperatura
 
 ```csharp

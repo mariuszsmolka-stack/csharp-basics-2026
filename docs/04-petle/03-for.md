@@ -46,6 +46,30 @@ W tym zapisie:
 - `i <= 5` oznacza warunek działania pętli,
 - `i++` oznacza zwiększenie licznika o `1` po każdym obiegu.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart LR
+    A([Start])
+    B["Inicjalizacja<br/>int i = 1"]
+    C{"Warunek<br/>i <= 5?"}
+    D["Ciało pętli"]
+    E["Zmiana<br/>i++"]
+    F([Koniec])
+
+    A --> B
+    B --> C
+    C -- "tak" --> D
+    D --> E
+    E --> C
+    C -- "nie" --> F
+```
+
+Diagram pokazuje kolejność części pętli `for`: start licznika, sprawdzenie warunku, wykonanie bloku i zmianę licznika.
+
 ## Pierwszy przykład: liczby od 1 do 5
 
 ```csharp

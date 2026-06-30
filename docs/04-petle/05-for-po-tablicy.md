@@ -66,6 +66,30 @@ W tym przykładzie:
 - gdy `i` osiągnie `4`, warunek `i < oceny.Length` będzie fałszywy,
 - `oceny[i]` oznacza element tablicy o aktualnym indeksie.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart LR
+    A([Start])
+    B["i = 0"]
+    C{"i < Length?"}
+    D["Odczytaj<br/>tablica[i]"]
+    E["i++"]
+    F([Koniec])
+
+    A --> B
+    B --> C
+    C -- "tak" --> D
+    D --> E
+    E --> C
+    C -- "nie" --> F
+```
+
+Diagram pokazuje, że pętla przechodzi tylko po poprawnych indeksach tablicy.
+
 ## Dlaczego używamy i < tablica.Length
 
 ```csharp

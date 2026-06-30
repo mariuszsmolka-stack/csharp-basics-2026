@@ -215,6 +215,31 @@ Bez tego można przypadkowo otrzymać dzielenie całkowite, czyli wynik bez czę
 
 Format `F2` dotyczy sposobu wypisania wyniku. Dzięki temu procent jest pokazany z dwoma miejscami po przecinku.
 
+```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+---
+flowchart LR
+    A([Start])
+    B["Wypisz pytania"]
+    C["Wczytaj tekst"]
+    D["Zamień na liczby"]
+    E["Wykonaj obliczenia"]
+    F["Sformatuj wynik"]
+    G([Koniec])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+```
+
+Diagram pokazuje, że dane z konsoli najpierw są tekstem, a dopiero po konwersji można użyć ich w obliczeniach.
+
 ## 10. Typowe błędy
 
 - Brak konwersji przed obliczeniami.
