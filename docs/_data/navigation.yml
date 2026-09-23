@@ -158,6 +158,8 @@ sections:
         url: "07-tablice-listy-referencje/14-split-i-join.md"
       - title: "Liczby losowe - klasa Random"
         url: "07-tablice-listy-referencje/15-random.md"
+      - title: "Pliki tekstowe - odczyt i zapis"
+        url: "07-tablice-listy-referencje/16-pliki-tekstowe.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"

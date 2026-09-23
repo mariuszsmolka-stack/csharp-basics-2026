@@ -29,6 +29,10 @@ Ten dział rozwija pracę z danymi złożonymi i ich przetwarzaniem w C#. Omawia
 - [Dzielenie i łączenie napisów - Split i Join](14-split-i-join.md)
 - [Liczby losowe - klasa Random](15-random.md)
 
+## Pliki tekstowe
+
+- [Pliki tekstowe - odczyt i zapis](16-pliki-tekstowe.md)
+
 ## Po tym dziale
 
 Uczeń powinien umieć:
@@ -40,4 +44,7 @@ Uczeń powinien umieć:
 - bezpiecznie wczytywać dane za pomocą `TryParse`,
 - grupować i zwracać kilka wartości za pomocą krotek,
 - analizować, dzielić i łączyć napisy,
-- generować liczby losowe za pomocą klasy `Random`.
+- generować liczby losowe za pomocą klasy `Random`,
+- zapisywać tekst do pliku i dopisywać kolejne dane,
+- odczytywać cały plik oraz tablicę wierszy,
+- sprawdzać, czy plik istnieje.

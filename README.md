@@ -23,6 +23,7 @@ Kurs jest przeznaczony dla osób początkujących. Skupia się na programach kon
 - przetwarzanie napisów,
 - `Split` i `Join`,
 - klasa `Random`,
+- odczyt i zapis plików tekstowych,
 - klasy i obiekty,
 - pola, metody obiektu i konstruktory,
 - pola `static`,

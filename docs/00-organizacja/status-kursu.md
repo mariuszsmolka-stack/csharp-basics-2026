@@ -34,7 +34,7 @@
 | 04 - Pętle | 10 | W tym podstawy tablic jednowymiarowych |
 | 05 - Metody | 7 | W tym osobny materiał z ćwiczeniami |
 | 06 - Zakres zmiennych | 6 | Opublikowano wszystkie lekcje obecnego zakresu |
-| 07 - Tablice, listy i przetwarzanie danych | 15 | W tym napisy, krotki, `TryParse` i `Random` |
+| 07 - Tablice, listy i przetwarzanie danych | 16 | W tym napisy, krotki, `TryParse`, `Random` i pliki tekstowe |
 | 08 - Wstęp do obiektowości | 8 | Dział jest nadal rozwijany |
 | 09 - Projekty | 0 | Istnieje opis planowanych projektów, ale nie ma jeszcze materiałów projektowych |
 
