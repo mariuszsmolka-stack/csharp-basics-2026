@@ -10,5 +10,6 @@ Planowane lekcje:
 * [Metody obiektu](04-metody-obiektu.md)
 * [Konstruktor](05-konstruktor.md)
 * [Pola obiektu i pola static](06-pola-static.md)
+* [Pola prywatne oraz właściwości get i set](07-wlasciwosci-get-set.md)
 * Kilka obiektów
 * Podsumowanie

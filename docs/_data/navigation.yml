@@ -176,6 +176,8 @@ sections:
         url: "08-obiekty/05-konstruktor.md"
       - title: "Pola obiektu i pola static"
         url: "08-obiekty/06-pola-static.md"
+      - title: "Pola prywatne oraz właściwości get i set"
+        url: "08-obiekty/07-wlasciwosci-get-set.md"
 
   - title: "09 - Projekty"
     url: "09-projekty/README.md"
