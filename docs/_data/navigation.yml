@@ -146,6 +146,8 @@ sections:
         url: "07-tablice-listy-referencje/08-cwiczenia.md"
       - title: "TryParse - bezpieczne wczytywanie danych"
         url: "07-tablice-listy-referencje/09-tryparse.md"
+      - title: "Krotki - grupowanie i zwracanie wielu wartości"
+        url: "07-tablice-listy-referencje/10-krotki.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"

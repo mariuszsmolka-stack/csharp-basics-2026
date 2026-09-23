@@ -13,4 +13,5 @@ Ten dział rozwija pracę z danymi złożonymi w C#. Omawia tablice dwuwymiarowe
 - [ref i out](07-ref-i-out.md)
 - [Ćwiczenia](08-cwiczenia.md)
 - [TryParse - bezpieczne wczytywanie danych](09-tryparse.md)
+- [Krotki - grupowanie i zwracanie wielu wartości](10-krotki.md)
 
