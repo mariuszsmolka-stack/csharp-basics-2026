@@ -17,6 +17,7 @@ Po tej lekcji powinieneś umieć:
 - odróżnić typ `string` od typu `char`,
 - przejść po znakach napisu za pomocą `for` i `foreach`,
 - porównać dwa napisy,
+- utworzyć zmienioną wersję napisu za pomocą `Remove()`, `Replace()` i `Insert()`,
 - wyjaśnić, na czym polega niezmienność napisów.
 
 ## 1. Czym jest napis
@@ -396,6 +397,100 @@ class Program
 
 Po utworzeniu zmiennej `nowyTekst` zmienna `tekstPoczatkowy` nadal zawiera napis `Ala`.
 
+## 15. Metody tworzące zmieniony napis
+
+Niezmienność typu `string` nie oznacza, że nie można usuwać, zamieniać ani dodawać znaków. Metody wykonujące takie operacje zwracają nowy napis. Napis początkowy pozostaje bez zmian.
+
+### Remove - usuwanie fragmentu
+
+Metoda `Remove(indeks, liczbaZnakow)` tworzy nowy napis bez wskazanego fragmentu.
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string napis = "Kotek";
+        string poUsunieciu = napis.Remove(1, 1);
+
+        Console.WriteLine($"Napis początkowy: {napis}");
+        Console.WriteLine($"Po usunięciu znaku: {poUsunieciu}");
+    }
+}
+```
+
+Indeks `1` wskazuje literę `o`, a drugi argument określa, że ma zostać usunięty jeden znak. Nowy napis ma wartość `Ktek`, natomiast zmienna `napis` nadal przechowuje `Kotek`.
+
+### Replace - zamiana znaków
+
+Metoda `Replace()` tworzy nowy napis, w którym wskazane znaki lub fragmenty zostały zastąpione.
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string napis = "Kotek";
+        string poZamianie = napis.Replace('o', 'a');
+
+        Console.WriteLine($"Napis początkowy: {napis}");
+        Console.WriteLine($"Po zamianie: {poZamianie}");
+    }
+}
+```
+
+Metoda zamienia wszystkie wystąpienia znaku `'o'` na znak `'a'`. Otrzymany napis ma wartość `Katek`.
+
+### Insert - dodawanie fragmentu
+
+Metoda `Insert(indeks, tekst)` tworzy nowy napis z tekstem dodanym w wybranym miejscu.
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string napis = "Kotek";
+        string poDodaniu = napis.Insert(5, " śpi");
+
+        Console.WriteLine($"Napis początkowy: {napis}");
+        Console.WriteLine($"Po dodaniu tekstu: {poDodaniu}");
+    }
+}
+```
+
+Indeks `5` wskazuje miejsce bezpośrednio za ostatnim znakiem napisu `Kotek`.
+
+### Ponowne przypisanie do tej samej zmiennej
+
+Wynik metody można ponownie przypisać do zmiennej, która wcześniej przechowywała napis.
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string napis = "Kotek";
+
+        napis = napis.Remove(1, 1);
+
+        Console.WriteLine(napis);
+    }
+}
+```
+
+Po prawej stronie metoda tworzy nowy napis `Ktek`. Następnie operator `=` przypisuje ten nowy napis do zmiennej `napis`. Nie został zmieniony pojedynczy znak istniejącego napisu. Zmienna otrzymała nową wartość.
+
+W tej lekcji poznajemy tylko podstawową zasadę działania tych metod. Więcej metod do przetwarzania napisów pojawi się w następnej lekcji.
+
 ## Podstawowe elementy pracy z napisami
 
 | Zapis | Znaczenie | Przykład |
@@ -410,6 +505,9 @@ Po utworzeniu zmiennej `nowyTekst` zmienna `tekstPoczatkowy` nadal zawiera napis
 | `$` | Interpolacja napisu | `$"Witaj, {imie}!"` |
 | `==` | Sprawdzenie równości napisów | `pierwszy == drugi` |
 | `!=` | Sprawdzenie różności napisów | `pierwszy != drugi` |
+| `Remove()` | Utworzenie napisu bez wskazanego fragmentu | `napis.Remove(1, 1)` |
+| `Replace()` | Utworzenie napisu po zamianie znaków lub fragmentów | `napis.Replace('a', 'o')` |
+| `Insert()` | Utworzenie napisu z dodanym fragmentem | `napis.Insert(0, "Tekst: ")` |
 
 ## Typowe błędy
 
@@ -424,6 +522,8 @@ Po utworzeniu zmiennej `nowyTekst` zmienna `tekstPoczatkowy` nadal zawiera napis
 - Oczekiwanie, że napisy `"Ala"` i `"ala"` są równe.
 - Użycie w pętli warunku `indeks <= napis.Length` zamiast `indeks < napis.Length`.
 - Pomylenie indeksu znaku z samym znakiem.
+- Wywołanie `Remove()`, `Replace()` albo `Insert()` bez zapisania zwróconego napisu.
+- Podanie w `Remove()` lub `Insert()` indeksu znajdującego się poza dozwolonym zakresem.
 
 ## Zapamiętaj
 
@@ -438,6 +538,8 @@ Po utworzeniu zmiennej `nowyTekst` zmienna `tekstPoczatkowy` nadal zawiera napis
 - Operatory `==` i `!=` porównują napisy.
 - Podstawowe porównanie rozróżnia wielkie i małe litery.
 - Napis jest niezmienny.
+- `Remove()`, `Replace()` i `Insert()` zwracają nowe napisy.
+- Wynik metody można zapisać w nowej zmiennej albo ponownie przypisać do tej samej zmiennej.
 - Przed odczytem znaku warto sprawdzić, czy napis nie jest pusty.
 
 ## Ćwiczenia
@@ -458,6 +560,9 @@ Po utworzeniu zmiennej `nowyTekst` zmienna `tekstPoczatkowy` nadal zawiera napis
 14. Wczytaj napis oraz jeden znak. Policz, ile razy wskazany znak występuje w napisie.
 15. Napisz program, który wypisuje znaki napisu w odwrotnej kolejności. Użyj pętli `for`.
 16. Wyjaśnij własnymi słowami, co oznacza, że napis jest niezmienny.
+17. Usuń jeden wybrany znak z napisu za pomocą `Remove()` i zapisz wynik w nowej zmiennej.
+18. Zamień wszystkie wystąpienia wybranego znaku na inny znak za pomocą `Replace()`.
+19. Dodaj fragment tekstu na początku albo na końcu napisu za pomocą `Insert()`.
 
 ## Podsumowanie
 
@@ -466,3 +571,5 @@ Typ `string` służy do przechowywania napisów, a typ `char` do przechowywania 
 Pętla `for` jest wygodna, gdy potrzebujemy indeksów. Pętla `foreach` pozwala prosto odczytywać kolejne znaki.
 
 Napisy można łączyć, interpolować i porównywać. Napis jest niezmienny, dlatego operacje prowadzące do powstania zmienionej treści tworzą nową wartość.
+
+Metody `Remove()`, `Replace()` i `Insert()` pozwalają uzyskać zmienioną wersję napisu. Zwrócony wynik trzeba zapisać w nowej zmiennej albo ponownie przypisać do istniejącej zmiennej.
