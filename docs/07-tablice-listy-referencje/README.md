@@ -15,4 +15,5 @@ Ten dział rozwija pracę z danymi złożonymi i ich przetwarzaniem w C#. Omawia
 - [TryParse - bezpieczne wczytywanie danych](09-tryparse.md)
 - [Krotki - grupowanie i zwracanie wielu wartości](10-krotki.md)
 - [Napisy - podstawy](11-napisy-podstawy.md)
+- [Metody typu string - wyszukiwanie i przekształcanie napisów](12-metody-string.md)
 
