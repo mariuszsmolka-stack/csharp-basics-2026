@@ -2,7 +2,7 @@
 
 W tym dziale uczeń poznaje zakres życia zmiennych, bloki kodu, zmienne lokalne, parametry metod oraz problem przesłaniania nazw.
 
-Planowane lekcje:
+## Lekcje
 
 * [Blok kodu i zakres zmiennej](01-blok-kodu-i-zakres-zmiennej.md)
 * [Zmienne lokalne](02-zmienne-lokalne.md)
@@ -10,3 +10,14 @@ Planowane lekcje:
 * [Zmienne w pętlach](04-zmienne-w-petlach.md)
 * [Przesłanianie zmiennych](05-przeslanianie-zmiennych.md)
 * [Najczęstsze błędy](06-najczestsze-bledy.md)
+
+## Po tym dziale
+
+Uczeń powinien rozumieć:
+
+- zakres zmiennej,
+- znaczenie bloku kodu,
+- działanie zmiennych lokalnych,
+- różnicę między parametrem metody i zmienną lokalną,
+- zakres zmiennych tworzonych w pętlach,
+- problem przesłaniania nazw.
