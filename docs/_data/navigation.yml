@@ -156,6 +156,8 @@ sections:
         url: "07-tablice-listy-referencje/13-analiza-napisow-znak-po-znaku.md"
       - title: "Dzielenie i łączenie napisów - Split i Join"
         url: "07-tablice-listy-referencje/14-split-i-join.md"
+      - title: "Liczby losowe - klasa Random"
+        url: "07-tablice-listy-referencje/15-random.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"

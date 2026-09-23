@@ -18,4 +18,5 @@ Ten dział rozwija pracę z danymi złożonymi i ich przetwarzaniem w C#. Omawia
 - [Metody typu string - wyszukiwanie i przekształcanie napisów](12-metody-string.md)
 - [Analiza napisów znak po znaku](13-analiza-napisow-znak-po-znaku.md)
 - [Dzielenie i łączenie napisów - Split i Join](14-split-i-join.md)
+- [Liczby losowe - klasa Random](15-random.md)
 
