@@ -243,7 +243,7 @@ Jeśli użytkownik wpisze `abc`, program nie będzie mógł zamienić tego tekst
 
 `TryParse` pozwala bezpieczniej sprawdzić, czy konwersja się udała.
 
-Na razie traktujemy `TryParse` tylko jako zapowiedź. Szczegółowo wrócimy do niego później, gdy będziemy omawiać sprawdzanie poprawności danych.
+Szczegółowe omówienie znajdziesz w lekcji [TryParse - bezpieczne wczytywanie danych](../07-tablice-listy-referencje/09-tryparse.md).
 
 ## 11. Proste obliczenia po konwersji
 
@@ -286,7 +286,7 @@ W tym przykładzie zmienna `bok` jest liczbą typu `int`, dlatego można obliczy
 - `double.Parse()` zamienia poprawny tekst liczbowy na `double`.
 - `Convert.ToInt32()` i `Convert.ToDouble()` są alternatywnym sposobem konwersji.
 - Jeśli użytkownik wpisze dane w złym formacie, program może zakończyć się błędem.
-- `TryParse` pozwala bezpieczniej sprawdzić, czy konwersja się udała, ale dokładniej omówimy to później.
+- `TryParse` pozwala bezpiecznie sprawdzić, czy konwersja się udała. Szczegóły znajdziesz w lekcji [TryParse - bezpieczne wczytywanie danych](../07-tablice-listy-referencje/09-tryparse.md).
 - Przed wykonaniem obliczeń dane tekstowe trzeba przekonwertować na liczby.
 
 ## Ćwiczenia
