@@ -144,6 +144,8 @@ sections:
         url: "07-tablice-listy-referencje/07-ref-i-out.md"
       - title: "Ćwiczenia"
         url: "07-tablice-listy-referencje/08-cwiczenia.md"
+      - title: "TryParse - bezpieczne wczytywanie danych"
+        url: "07-tablice-listy-referencje/09-tryparse.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"
