@@ -761,8 +761,8 @@ Do wyszukiwania i liczenia elementów wystarczą zwykłe pętle `for` i `foreach
 7. Usuń spacje z początku i końca każdego elementu listy za pomocą `Trim()`.
 8. Podziel dane ucznia zapisane z użyciem średników.
 9. Podziel napis zawierający przecinki, średniki i spacje.
-10. Znajdź najdłuższy wyraz bez używania LINQ.
-11. Znajdź najkrótszy wyraz bez używania LINQ.
+10. Znajdź najdłuższy wyraz.
+11. Znajdź najkrótszy wyraz.
 12. Policz wyrazy dłuższe od wartości podanej przez użytkownika.
 13. Policz wyrazy rozpoczynające się wielką literą.
 14. Policz wyrazy zawierające wskazaną literę bez rozróżniania jej wielkości.
@@ -779,7 +779,7 @@ Do wyszukiwania i liczenia elementów wystarczą zwykłe pętle `for` i `foreach
 25. Przeanalizuj uproszczony wiersz CSV zawierający identyfikator, nazwę i cenę.
 26. Utwórz czytelny komunikat na podstawie wybranych pól rekordu.
 27. Oblicz łączną liczbę znaków znajdujących się we wszystkich wyrazach, bez spacji.
-28. Oblicz średnią długość wyrazów bez używania LINQ. Obsłuż zdanie bez wyrazów.
+28. Oblicz średnią długość wyrazów. Obsłuż zdanie bez wyrazów.
 
 ## Podsumowanie
 
