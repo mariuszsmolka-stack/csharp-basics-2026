@@ -11,5 +11,5 @@ Planowane lekcje:
 * [Konstruktor](05-konstruktor.md)
 * [Pola obiektu i pola static](06-pola-static.md)
 * [Pola prywatne oraz właściwości get i set](07-wlasciwosci-get-set.md)
-* Kilka obiektów
+* [Kilka obiektów tej samej klasy](08-kilka-obiektow.md)
 * Podsumowanie

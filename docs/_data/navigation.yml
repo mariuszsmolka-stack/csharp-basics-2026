@@ -178,6 +178,8 @@ sections:
         url: "08-obiekty/06-pola-static.md"
       - title: "Pola prywatne oraz właściwości get i set"
         url: "08-obiekty/07-wlasciwosci-get-set.md"
+      - title: "Kilka obiektów tej samej klasy"
+        url: "08-obiekty/08-kilka-obiektow.md"
 
   - title: "09 - Projekty"
     url: "09-projekty/README.md"
