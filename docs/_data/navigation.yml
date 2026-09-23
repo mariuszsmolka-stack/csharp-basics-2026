@@ -172,6 +172,8 @@ sections:
         url: "08-obiekty/03-pola-obiektu.md"
       - title: "Metody obiektu"
         url: "08-obiekty/04-metody-obiektu.md"
+      - title: "Konstruktor"
+        url: "08-obiekty/05-konstruktor.md"
 
   - title: "09 - Projekty"
     url: "09-projekty/README.md"

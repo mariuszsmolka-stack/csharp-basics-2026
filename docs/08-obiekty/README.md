@@ -8,6 +8,6 @@ Planowane lekcje:
 * [Klasa i obiekt](02-klasa-i-obiekt.md)
 * [Pola obiektu](03-pola-obiektu.md)
 * [Metody obiektu](04-metody-obiektu.md)
-* Konstruktor
+* [Konstruktor](05-konstruktor.md)
 * Kilka obiektów
 * Podsumowanie
