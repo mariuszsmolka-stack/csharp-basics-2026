@@ -1,6 +1,6 @@
-﻿# 07 - Tablice, listy i przekazywanie danych
+﻿# 07 - Tablice, listy i przetwarzanie danych
 
-Ten dział rozwija pracę z danymi złożonymi w C#. Omawia tablice dwuwymiarowe, podstawy List<T> oraz przekazywanie danych do metod, w tym ref i out.
+Ten dział rozwija pracę z danymi złożonymi i ich przetwarzaniem w C#. Omawia tablice dwuwymiarowe, podstawy List<T>, przekazywanie danych do metod, krotki, bezpieczne wczytywanie danych oraz podstawowe przetwarzanie napisów.
 
 ## Lekcje
 
@@ -14,4 +14,5 @@ Ten dział rozwija pracę z danymi złożonymi w C#. Omawia tablice dwuwymiarowe
 - [Ćwiczenia](08-cwiczenia.md)
 - [TryParse - bezpieczne wczytywanie danych](09-tryparse.md)
 - [Krotki - grupowanie i zwracanie wielu wartości](10-krotki.md)
+- [Napisy - podstawy](11-napisy-podstawy.md)
 

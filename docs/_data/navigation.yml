@@ -123,7 +123,7 @@ sections:
       - title: "Najczęstsze błędy"
         url: "06-zakres-zmiennych/06-najczestsze-bledy.md"
 
-  - title: "07 - Tablice, listy i przekazywanie danych"
+  - title: "07 - Tablice, listy i przetwarzanie danych"
     url: "07-tablice-listy-referencje/README.md"
     lessons:
       - title: "Wprowadzenie"
@@ -148,6 +148,8 @@ sections:
         url: "07-tablice-listy-referencje/09-tryparse.md"
       - title: "Krotki - grupowanie i zwracanie wielu wartości"
         url: "07-tablice-listy-referencje/10-krotki.md"
+      - title: "Napisy - podstawy"
+        url: "07-tablice-listy-referencje/11-napisy-podstawy.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"
