@@ -152,6 +152,8 @@ sections:
         url: "07-tablice-listy-referencje/11-napisy-podstawy.md"
       - title: "Metody typu string - wyszukiwanie i przekształcanie napisów"
         url: "07-tablice-listy-referencje/12-metody-string.md"
+      - title: "Analiza napisów znak po znaku"
+        url: "07-tablice-listy-referencje/13-analiza-napisow-znak-po-znaku.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"
