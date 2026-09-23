@@ -170,6 +170,8 @@ sections:
         url: "08-obiekty/02-klasa-i-obiekt.md"
       - title: "Pola obiektu"
         url: "08-obiekty/03-pola-obiektu.md"
+      - title: "Metody obiektu"
+        url: "08-obiekty/04-metody-obiektu.md"
 
   - title: "09 - Projekty"
     url: "09-projekty/README.md"
