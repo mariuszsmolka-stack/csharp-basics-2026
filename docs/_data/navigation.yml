@@ -154,6 +154,8 @@ sections:
         url: "07-tablice-listy-referencje/12-metody-string.md"
       - title: "Analiza napisów znak po znaku"
         url: "07-tablice-listy-referencje/13-analiza-napisow-znak-po-znaku.md"
+      - title: "Dzielenie i łączenie napisów - Split i Join"
+        url: "07-tablice-listy-referencje/14-split-i-join.md"
 
   - title: "08 - Obiekty"
     url: "08-obiekty/README.md"
