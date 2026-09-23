@@ -9,5 +9,6 @@ Planowane lekcje:
 * [Pola obiektu](03-pola-obiektu.md)
 * [Metody obiektu](04-metody-obiektu.md)
 * [Konstruktor](05-konstruktor.md)
+* [Pola obiektu i pola static](06-pola-static.md)
 * Kilka obiektów
 * Podsumowanie
