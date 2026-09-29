@@ -1,4 +1,4 @@
-# 09 - Projekty
+# 10 - Projekty
 
 Ten dział będzie zawierał proste projekty konsolowe utrwalające materiał z kursu.
 

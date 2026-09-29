@@ -22,7 +22,8 @@
 | 06 - Zakres zmiennych | OK |
 | 07 - Tablice, listy i przetwarzanie danych | OK |
 | 08 - Wstęp do obiektowości | ROBOCZE |
-| 09 - Projekty | BRAK |
+| 09 - Testowanie i asercje | OK |
+| 10 - Projekty | BRAK |
 
 ## Liczba opublikowanych materiałów
 
@@ -36,10 +37,11 @@
 | 06 - Zakres zmiennych | 6 | Opublikowano wszystkie lekcje obecnego zakresu |
 | 07 - Tablice, listy i przetwarzanie danych | 16 | W tym napisy, krotki, `TryParse`, `Random` i pliki tekstowe |
 | 08 - Wstęp do obiektowości | 8 | Dział jest nadal rozwijany |
-| 09 - Projekty | 0 | Istnieje opis planowanych projektów, ale nie ma jeszcze materiałów projektowych |
+| 09 - Testowanie i asercje | 7 | W tym `Debug.Assert`, MSTest i przypadki testowe |
+| 10 - Projekty | 0 | Istnieje opis planowanych projektów, ale nie ma jeszcze materiałów projektowych |
 
 ## Planowane uzupełnienia
 
 Dział 08 będzie rozwijany o tablice obiektów, listy obiektów, obiekt jako element innego obiektu oraz ćwiczenia podsumowujące OOP.
 
-Dział 09 zawiera obecnie wyłącznie opis planowanych projektów. Właściwe materiały projektowe zostaną dodane w kolejnych etapach.
+Dział 10 zawiera obecnie wyłącznie opis planowanych projektów. Właściwe materiały projektowe zostaną dodane w kolejnych etapach.
