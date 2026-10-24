@@ -15,3 +15,4 @@ Oznacza to, że możesz korzystać z materiałów, udostępniać je i modyfikowa
 - nie użyjesz materiałów komercyjnie,
 - udostępnisz zmienione materiały na tej samej licencji.
 
+Autor: Mariusz Smółka.
