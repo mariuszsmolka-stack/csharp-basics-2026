@@ -1,8 +1,12 @@
 ﻿title: C# dla początkujących
 description: Kurs podstaw programowania konsolowego w C# dla uczniów i początkujących programistów
+url: "https://mariuszsmolka-stack.github.io"
 baseurl: "/csharp-basics-2026"
 theme: jekyll-theme-slate
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
 
 defaults:
   - scope:
