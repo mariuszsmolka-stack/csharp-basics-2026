@@ -37,3 +37,11 @@ Strona startowa kursu znajduje się w pliku [docs/index.md](docs/index.md). Peł
 ## Zasady
 
 Przykłady w kursie są proste, konsolowe i przeznaczone dla osób początkujących. Warto samodzielnie przepisywać programy, uruchamiać je i wykonywać ćwiczenia znajdujące się na końcu lekcji.
+
+## Autor
+
+Mariusz Smółka
+
+## Licencja
+
+Materiały są udostępniane na licencji **CC BY-NC-SA 4.0**.
